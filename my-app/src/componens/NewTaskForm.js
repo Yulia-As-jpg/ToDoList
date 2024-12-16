@@ -1,15 +1,6 @@
 import React from "react";
 
-const App = () => {
-  return (
-    <div>
-      <h1>TODO</h1>
-    </div>
-  );
-}
-
-
-const Task = () => {
+const NewTaskForm = () => {
     return (
         <div>
             <input type="text" placeholder="What needs to be done?"></input>
@@ -17,6 +8,4 @@ const Task = () => {
     )
 }
 
-
-
-export default App;
+export default NewTaskForm;
