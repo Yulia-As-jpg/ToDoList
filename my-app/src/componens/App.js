@@ -3,12 +3,14 @@ import React from "react";
 import  NewTaskForm  from "./NewTaskForm";
 import Footer from "./Footer";
 
+import "./App.css";
+
 const App = () => {
   return (
-    <div>
-      <h1>TODO</h1>
+    <div className="todo-app">
+      <h1 className="todo-header">TODO</h1>
         <NewTaskForm />
-        <Footer />
+        <Footer /> 
     </div>
   );
 }

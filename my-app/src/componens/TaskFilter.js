@@ -3,9 +3,9 @@ import React from "react";
 const TaskFilter = () => {
     return (
         <div>
-            <button>Все</button>
-            <button>Активные</button>
-            <button>Завершонные</button>
+            <button className="selected btn">Все</button>
+            <button className="selected btn">Активные</button>
+            <button className="selected btn">Завершонные</button>
         </div>
     )
 }
